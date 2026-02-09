@@ -660,7 +660,7 @@ export default function ProductDetailPage() {
   const breadcrumbItems: BreadcrumbItem[] = [
 
     {
-      label: product.slug,
+      label: product.slug.split("-").join(" "),
     },
   ];
 
