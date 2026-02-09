@@ -483,8 +483,8 @@ export default function WhyChooseUsSection() {
   const calculate = () => {
     if (!pathRef.current) return;
 
-    const path = pathRef.current;
-    const total = path.getTotalLength();
+    // const path = pathRef.current;
+    // const total = path.getTotalLength();
 
     const getHung = (progress: number, index: number) => {
       const path = pathRef.current!;

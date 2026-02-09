@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { isAuthenticated, getCurrentUser } from '../services/auth.service';
+import { isAuthenticated } from '../services/auth.service';
 import DarkLogo from '../assets/images/newWhiteLogo.png';
 
 
@@ -61,9 +61,9 @@ const user = JSON.parse(localStorage.getItem("authUser") || "null");
   };
 
   return (
-    <header   className={` bg-[#316763]  sticky top-0 z-[100]
+    <header   className={` bg-[#316763]   top-0 
   
-     sticky top-0 z-[100] transition-all duration-300 ${isScrolled ? '' : ''}`}>
+     sticky z-[100] transition-all duration-300 ${isScrolled ? '' : ''}`}>
       <nav className="max-w-[1600px] bg-transparent mx-auto px-4 sm:px-6 lg:px-12 xl:px-16">
         <div className="flex justify-between items-center h-16 sm:h-20 lg:h-24">
           {/* Left Section - Hamburger Menu + Navigation */}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelpCircle, Headphones, ShoppingCart } from 'lucide-react';
+// import { HelpCircle, Headphones, ShoppingCart } from 'lucide-react';
 
 const HelpSupport: React.FC = () => {
   const supportCards = [
