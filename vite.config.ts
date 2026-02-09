@@ -10,6 +10,7 @@ export default defineConfig({
   esbuild: {
     drop: ['console', 'debugger'],
   },
+  base:"/",
   build: {
     // Enable code splitting for better performance
     rollupOptions: {
