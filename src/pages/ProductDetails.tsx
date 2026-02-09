@@ -672,7 +672,7 @@ export default function ProductDetailPage() {
         description={product?.description}
       />
 
-  <div className="container bg-[#E4DEC9] mx-auto px-4 py-4">
+  <div className="  bg-[#E4DEC9] mx-auto px-4 py-4">
           <Breadcrumb items={breadcrumbItems} />
         </div>
       <div className="min-h-screen max-w-[1600px] mx-auto bg-[#F6F1E8]">
