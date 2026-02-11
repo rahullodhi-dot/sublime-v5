@@ -17,6 +17,8 @@ import "leaflet/dist/leaflet.css";
 
 import Profile from './pages/Profile';
 import StoreLocation from './pages/StoreLocator';
+import Disclaimer from './pages/Disclaimer';
+import TermandCondition from './pages/TermandCondition';
 
 function App() {
   return (
@@ -52,6 +54,8 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/store" element={<StoreLocation />} />
+          <Route path="/disclaimer" element={<Disclaimer />} />
+          <Route path="/TnC" element={<TermandCondition />} />
 
         </Route>
       </Routes>
