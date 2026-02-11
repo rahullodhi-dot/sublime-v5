@@ -11,13 +11,14 @@ interface Bread{
 
 interface TopSectionProps{
     breadCrumnb:Array<Bread>
+    title:string
 }
 
 
 
 
 
-const TopSection = ({breadCrumnb}:TopSectionProps) => {
+const TopSection = ({breadCrumnb,title}:TopSectionProps) => {
   return (
    <div
           style={{
@@ -31,7 +32,7 @@ const TopSection = ({breadCrumnb}:TopSectionProps) => {
        
 
           <div className="relative flex justify-center items-center flex-col container mx-auto px-4 text-center">
-            <h1 style={{fontFamily:"gotham2"}} className="text-3xl text-[#9a7523] font-bold mb-2">Disclaimer</h1>
+            <h1 style={{fontFamily:"gotham2"}} className="text-3xl text-[#9a7523] font-bold mb-2">{title}</h1>
             <Breadcrumb items={breadCrumnb} />
           </div>
         </div>
