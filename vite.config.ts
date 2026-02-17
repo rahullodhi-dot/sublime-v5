@@ -4,7 +4,10 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+<<<<<<< HEAD
  
+=======
+>>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
   // Environment variables configuration
   envPrefix: 'VITE_', // Only expose env variables prefixed with VITE_
   // Remove console logs in production
@@ -37,16 +40,23 @@ export default defineConfig({
   // Server configuration for development
   server: {
     port: 5173,
+<<<<<<< HEAD
     host:true,
     open: true,
       allowedHosts: [
       'varietal-impavidly-rivka.ngrok-free.dev'
     ]
+=======
+    open: true
+>>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
   },
   // Preview configuration
   preview: {
     port: 4173,
     open: true
+<<<<<<< HEAD
     
+=======
+>>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
   }
 })

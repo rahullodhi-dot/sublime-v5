@@ -127,7 +127,6 @@ const TeaProductCard: React.FC<TeaProductCardProps> = ({
             Add to Cart
           </button>
         </div>
-
       </div>
     </div>
   );
