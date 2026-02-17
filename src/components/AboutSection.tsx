@@ -523,7 +523,4 @@ Every product of which is packed with authentic quality fresh ingredients, which
 };
 
 export default AboutSection;
-<<<<<<< HEAD
 // ek perfect view on mobile chaiye
-=======
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
