@@ -303,66 +303,28 @@ const Contact: React.FC = () => {
                     Full Name
                   </label>
                   <input
-<<<<<<< HEAD
                     style={{ fontFamily: "gotham-book" }}
                     placeholder='Enter your name here'
-=======
-                  style={{fontFamily:"gotham-book"}}
-                  placeholder='Enter your name here'
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
                     type="text"
                     className="w-full bg-[#f6f1e8] text-sm focus:outline-none border-gray-300 rounded-md px-4 py-2  border-0 "
                   />
                 </div>
 
-<<<<<<< HEAD
-=======
-                {/* Email */}
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
                 <div>
                   <label
                     className="block mb-2 text-sm text-[#0f0f0f]"
                     style={{ fontFamily: "gotham" }}
-<<<<<<< HEAD
                   >                     Email
                   </label>
                   <input
                     style={{ fontFamily: "gotham-book" }}
                     placeholder='Enter your email address' type="email"
-=======
-                  >
-                    Email
-                  </label>
-                  <input
-                        style={{fontFamily:"gotham-book"}}
-                        placeholder='Enter your email address'
-                    type="email"
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
                     className="w-full bg-[#f6f1e8] text-sm focus:outline-none border-gray-300 rounded-md px-4 py-2  border-0"
                   />
                 </div>
 
-<<<<<<< HEAD
 
 
-=======
-                {/* Phone */}
-                <div>
-                  <label
-                    className="block mb-2 text-sm text-[#0f0f0f]"
-                    style={{ fontFamily: "gotham" }}
-                  >
-                    Phone
-                  </label>
-                  <input
-                    type="text"
-                      placeholder='Enter your phone number'
-                    className="w-full bg-[#f6f1e8] text-sm focus:outline-none border-gray-300 rounded-md px-4 py-2  border-0"
-                  />
-                </div>
-
-                {/* Message */}
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
                 <div>
                   <label
                     className="block mb-2 text-sm text-gray-700"
@@ -371,54 +333,30 @@ const Contact: React.FC = () => {
                     Your Message
                   </label>
                   <textarea
-<<<<<<< HEAD
                     style={{ fontFamily: "gotham-book" }}
 
-=======
-                       style={{ fontFamily: "gotham-book" }}
-                      
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
                     rows={3}
                     className="w-full bg-[#f6f1e8] text-sm focus:outline-none border-gray-300 rounded-md px-4 py-2  border-0"
                   ></textarea>
                 </div>
 
                 <button
-<<<<<<< HEAD
                   type="submit"
                   className="w-full bg-[#9a7523] text-white px-6 py-2 rounded-lg hover:bg-[#316763] text-base sm:text-lg transition"
                 >
                   Send Message
                 </button>
 
-=======
-                  style={{ fontFamily: "gotham2" }}
-                  type="submit"
-                  className="w-full bg-[#9a7523] text-white px-6 py-2 rounded-lg hover:bg-[#316763] text-lg capitalize transition"
-                >
-                  Send Message
-                </button>
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
               </form>
 
             </div>
 
           </div>
-<<<<<<< HEAD
 
         </div>
       </div>
-=======
-        </div>
-      </div>
-
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
     </section>
   );
 };
 
 export default Contact;
-<<<<<<< HEAD
-
-=======
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
