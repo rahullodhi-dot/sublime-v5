@@ -1,10 +1,6 @@
 
 
-<<<<<<< HEAD
 import React, { useEffect, useRef, useState } from 'react';
-=======
-import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
 import { Link } from 'react-router-dom';
 import GirlImage from '../assets/images/founderImage.jpg';
 
@@ -35,11 +31,8 @@ const AboutSection: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const sectionRef = useRef<HTMLTableSectionElement>(null);
   const penDivRef = useRef<HTMLDivElement>(null);
-<<<<<<< HEAD
   const desktopPenRef = useRef<HTMLDivElement>(null);
   const destopContainerRef = useRef<HTMLDivElement>(null);
-=======
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
 
   // Fallback static content
   const fallbackData: AboutData = {

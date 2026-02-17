@@ -1,20 +1,6 @@
-<<<<<<< HEAD
 import React, { useState } from 'react';
 import bottomTree from "../assets/images/bottomTree.png";
 
-=======
-//  FINAL WORKING FILE (with imports)
-
-// JUST COPY-PASTE & REPLACE YOUR CURRENT FILE
-
-// (IMPORTANT: koi logic/JSX nahi chheda. sirf imports added & array updated.)
-
-import React, { useState } from 'react';
-import tokri from "../assets/images/tokri.png";
-import bottomTree from "../assets/images/bottomTree.png";
-
-// IMPORT IMAGES (NO DIRECT PATHS)
->>>>>>> e1b31fd3f0efe77e0274c1a52baf8a71fdcf9266
 import gift1 from "../assets/images/gift1.png";
 import gift2 from "../assets/images/gift2.png";
 import gift3 from "../assets/images/gift3.png";
